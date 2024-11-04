@@ -40,3 +40,27 @@ Project: Pokedex
 - The layout is visually appealing, with a focus on organization and clarity.
 
 This mockup provides a starting point for the PokeHUB website, offering a user-friendly and engaging platform for Pokemon enthusiasts.
+
+## Overview
+
+PokeHub is a web application that displays a gallery of Pokémon, allowing users to explore and mark Pokémon as "caught." The app utilizes HTML, CSS, JavaScript, and the PokeAPI to load Pokémon data dynamically.
+
+## Prototype Development Report
+
+### Steps Taken
+
+- **Static Pokémon List**: A list of Pokémon was initially created in a static HTML file to serve as the main gallery.
+- **Detail View**: A `div` element was added to show details for a selected Pokémon. At this stage, this view only displays details for one specific Pokémon, regardless of which one is clicked.
+- **Navigation Filters**: JavaScript was used to implement navigation filters for different Pokémon statuses — **All**, **Caught**, and **Free** — allowing users to view Pokémon based on their caught status.
+
+### Challenges Faced
+
+- **Dynamic Detail Display**: A challenge encountered is making the detail view update dynamically according to the selected Pokémon. Currently, the detail div displays only one Pokémon's information, which will be refined further with additional JavaScript functionality.
+
+## Resources Used
+
+- **HTML/CSS**: For building the basic structure and styling of the app.
+- **JavaScript**: For implementing interactivity, including the navigation filters.
+- **PokeAPI**: Will be used to dynamically load Pokémon data in future development.
+
+---

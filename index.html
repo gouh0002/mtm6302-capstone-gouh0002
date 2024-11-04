@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PokeHUB</h1>
+      <nav class="header-nav">
+        <a id="pokemon-filter-all" href="#" class="active">ALL</a>
+        <a id="pokemon-filter-caught" href="#">Caught</a>
+        <a id="pokemon-filter-free" href="#">Free</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="pokemon-gallery" class="grid-container">
+        <div class="pokemon-card pokemon-caught">
+          bulbasaur<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          ivysaur<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          venusaur<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+          />
+        </div>
+        <div class="pokemon-card pokemon-caught">
+          charmander<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+          />
+        </div>
+        <div class="pokemon-card pokemon-caught">
+          charmeleon<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          charizard<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+          />
+        </div>
+        <div class="pokemon-card pokemon-caught">
+          squirtle<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          wartortle<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          blastoise<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+          />
+        </div>
+        <div class="pokemon-card pokemon-caught">
+          caterpie<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          metapod<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          butterfree<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          weedle<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          kakuna<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+          />
+        </div>
+        <div class="pokemon-card pokemon-caught">
+          beedrill<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          pidgey<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          pidgeotto<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          pidgeot<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+          />
+        </div>
+        <div class="pokemon-card">
+          rattata<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+          />
+        </div>
+        <div class="pokemon-card pokemon-caught">
+          raticate<img
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+          />
+        </div>
+      </section>
+      <button id="load-more">Load More</button>
+    </main>
+
+    <aside id="pokemon-details" class="hidden">
+      <h2 id="pokemon-name">bulbasaur</h2>
+      <span style="color: red; font-weight: 50"
+        >bulbasaur details are loaded per default until the API is
+        implimented</span
+      >
+      <img
+        id="pokemon-image"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        alt="pokemon image"
+      />
+      <div id="pokemon-info">
+        <p>Types: grass, poison</p>
+        <p>Abilities: overgrow, chlorophyll</p>
+      </div>
+      <button id="close-details">Close</button>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
