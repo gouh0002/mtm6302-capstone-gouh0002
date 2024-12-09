@@ -1,66 +1,88 @@
-# mtm6302-capstone-gouh0002
+# PokeHUB - MTM6302 Capstone Project
 
-Name: Hanane Gouhmid
-Student Number: 041126257
-Project: Pokedex
+**Name:** Hanane Gouhmid  
+**Student Number:** 041126257  
+**Project:** Pokedex
 
-## PokeHUB Mockup Design Decisions
-
-**Key Considerations:**
-
-- **User-friendliness:** The primary goal was to create a visually appealing and intuitive user interface.
-- **Accessibility:** The design is designed to be accessible to a wide range of users, with clear and concise information and user-friendly interactions.
-- **Functionality:** The mockup prioritizes core features such as browsing, catching, and releasing Pokemon.
-- **Visual Appeal:** The design uses a bright and colorful palette, inspired by the Pokemon universe.
-
-**Design Elements:**
-
-- **Navigation:**
-  - The top navigation bar offers three tabs: "ALL", "Caught", and "Free". This allows users to easily filter the Pokemon based on their status.
-- **Pokemon Display:**
-  - Each Pokemon is displayed in a square card format with its image and name.
-  - The "ALL" tab shows all available Pokemon.
-  - The "Caught" tab displays the Pokemon that the user has caught.
-  - The "Free" tab shows the Pokemon that are still available to be caught.
-- **Pokemon Information:**
-  - When a user clicks on a Pokemon card, a modal appears displaying its image, types, and abilities.
-  - Users can catch or close the modal based on their preference.
-- **Actions:**
-  - Buttons for "Catch More" and "Release All" are prominently displayed for users to manage their Pokemon.
-- **Color Scheme:**
-  - The color scheme utilizes a vibrant blue, light blue, and white combination, creating a clean and playful feel.
-- **Typography:**
-  - **Irish Grover:** Used for the buttons and the title, adding a playful and energetic feel.
-  - **Inria Sans:** Used for the Pokemon names, providing a clean and modern look.
-
-**Overall Design:**
-
-- The design prioritizes simplicity and user-friendliness.
-- The use of clear buttons, legible text, and engaging visuals ensures a positive user experience.
-- The layout is visually appealing, with a focus on organization and clarity.
-
-This mockup provides a starting point for the PokeHUB website, offering a user-friendly and engaging platform for Pokemon enthusiasts.
+---
 
 ## Overview
 
 PokeHub is a web application that displays a gallery of Pokémon, allowing users to explore and mark Pokémon as "caught." The app utilizes HTML, CSS, JavaScript, and the PokeAPI to load Pokémon data dynamically.
 
+---
+
+## Mockup Design Decisions
+
+### Key Considerations
+
+- **User-friendliness:** A visually appealing and intuitive user interface.
+- **Accessibility:** Designed to be inclusive, with clear and concise information and user-friendly interactions.
+- **Functionality:** Prioritized core features such as browsing, catching, and releasing Pokémon.
+- **Visual Appeal:** Inspired by the bright and colorful palette of the Pokémon universe.
+
+### Design Elements
+
+- **Navigation:**
+  - A top navigation bar with three tabs: **ALL**, **Caught**, and **Free**, enabling easy filtering based on Pokémon status.
+- **Pokémon Display:**
+  - Pokémon are presented in square card formats with their images and names.
+  - Tabs:
+    - **ALL:** Displays all available Pokémon.
+    - **Caught:** Shows the Pokémon that have been caught.
+    - **Free:** Displays Pokémon still available to catch.
+- **Pokémon Information:**
+  - Clicking on a Pokémon card opens a modal displaying its details, including image, type, and abilities.
+  - Users can "Catch" or "Close" the modal.
+- **Actions:**
+  - Prominent buttons for "Catch More" and "Release All" to manage Pokémon.
+- **Color Scheme:**
+  - A vibrant palette of blue, light blue, and white for a playful and clean feel.
+- **Typography:**
+  - **Irish Grover:** Used for buttons and titles, adding an energetic and fun vibe.
+  - **Inria Sans:** Used for Pokémon names, creating a clean and modern aesthetic.
+
+---
+
 ## Prototype Development Report
 
 ### Steps Taken
 
-- **Static Pokémon List**: A list of Pokémon was initially created in a static HTML file to serve as the main gallery.
-- **Detail View**: A `div` element was added to show details for a selected Pokémon. At this stage, this view only displays details for one specific Pokémon, regardless of which one is clicked.
-- **Navigation Filters**: JavaScript was used to implement navigation filters for different Pokémon statuses — **All**, **Caught**, and **Free** — allowing users to view Pokémon based on their caught status.
+1. **Static Pokémon List:**  
+   Created a static list in an HTML file to display the initial Pokémon gallery.
+2. **Detail View:**  
+   Added a `div` element to display details for a selected Pokémon. (Currently, this only shows details for one specific Pokémon regardless of selection, which will be improved.)
+3. **Navigation Filters:**  
+   Implemented navigation filters using JavaScript:
+   - **All:** Displays all Pokémon.
+   - **Caught:** Displays only caught Pokémon.
+   - **Free:** Displays uncaught Pokémon.
 
 ### Challenges Faced
 
-- **Dynamic Detail Display**: A challenge encountered is making the detail view update dynamically according to the selected Pokémon. Currently, the detail div displays only one Pokémon's information, which will be refined further with additional JavaScript functionality.
+- **Dynamic Detail Display:**  
+  The detail view currently doesn't update dynamically for the selected Pokémon. This will be refined in future iterations using JavaScript.
+
+---
 
 ## Resources Used
 
-- **HTML/CSS**: For building the basic structure and styling of the app.
-- **JavaScript**: For implementing interactivity, including the navigation filters.
-- **PokeAPI**: Will be used to dynamically load Pokémon data in future development.
+- **HTML/CSS:** For building the app's structure and styling.
+- **JavaScript:** For interactivity and functionality (e.g., navigation filters, Pokémon details).
+- **PokeAPI:** Will be integrated to dynamically fetch Pokémon data in later stages of development.
 
 ---
+
+## Future Enhancements
+
+- Integrate the PokeAPI for real-time Pokémon data.
+- Improve the detail view functionality to display the correct Pokémon information dynamically.
+- Add features like a search bar, Pokémon sorting options, and user account management.
+
+---
+
+## Author
+
+**Hanane Gouhmid**  
+Student of Interactive Media Design  
+Algonquin College
